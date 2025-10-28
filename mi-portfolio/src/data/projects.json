@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Proyecto 1",
+        "description": "Descripción del Proyecto 1",
+        "link": "https://enlace-a-proyecto1.com"
+    },
+    {
+        "id": 2,
+        "title": "Proyecto 2",
+        "description": "Descripción del Proyecto 2",
+        "link": "https://enlace-a-proyecto2.com"
+    },
+    {
+        "id": 3,
+        "title": "Proyecto 3",
+        "description": "Descripción del Proyecto 3",
+        "link": "https://enlace-a-proyecto3.com"
+    }
+]

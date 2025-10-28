@@ -1,0 +1,28 @@
+{
+  "name": "mi-portafolio",
+  "version": "1.0.0",
+  "description": "Un portafolio personal para mostrar mis proyectos.",
+  "main": "src/main.tsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "vite": "^2.6.4",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2"
+  },
+  "keywords": [
+    "portfolio",
+    "projects",
+    "react"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
