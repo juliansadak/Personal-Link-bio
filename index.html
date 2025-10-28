@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tu Nombre — Links</title>
+    <meta name="description" content="Landing de enlaces estilo Linktree. Personaliza los enlaces y tu perfil." />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="profile">
+        <!-- Avatar SVG inline para evitar dependencias externas -->
+        <div class="avatar" aria-hidden="true">
+          <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="g" x1="0" x2="1">
+                <stop offset="0" stop-color="#6a11cb" />
+                <stop offset="1" stop-color="#2575fc" />
+              </linearGradient>
+            </defs>
+            <circle cx="60" cy="60" r="58" fill="url(#g)" />
+            <g fill="#fff" transform="translate(22,20)">
+              <circle cx="38" cy="26" r="18" />
+              <path d="M0 86c0-22 25-36 38-36s38 14 38 36v6H0v-6z" />
+            </g>
+          </svg>
+        </div>
+        <h1 class="name">Tu Nombre</h1>
+        <p class="bio">Diseñador • Desarrollador • Creador de contenido — Aquí encontrarás mis enlaces más importantes.</p>
+      </header>
+
+      <section id="links" class="links" aria-label="Enlaces principales">
+        <!-- Los botones se generan desde js/main.js para facilitar edición -->
+      </section>
+
+      <footer class="footer">
+        <small>© <span id="year"></span> Tu Nombre — Hecho con ❤️</small>
+      </footer>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
